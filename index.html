@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <header class="header__ ">
+        <div class="container ">
+            <div class="nav__block d-flex">
+                <div class="logo">
+                    <h1>shopping cart</h1>
+                </div>
+                <nav class="nav__">
+                    <ul class="nav__ul d-flex">
+                        <li class="nav__li">home</li>
+                        <li class="nav__li">products</li>
+                        <li class="nav__li">new product</li>
+                        <li class="nav__li">contact</li>
+                    </ul>
+                </nav>  
+                <div class="shopping__icon_box relative">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <span class="shopping__info">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main__sec">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="row main__content">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bag__wrapper">
+        <div class="bag__parent_box">
+           <div class="container">
+                <div class="bag__box relative">
+                    <p class="cancel">X</p>
+                    <h1 class="cart__title">Your Cart</h1>
+                    <div class="cart__content">
+                    </div>
+                    <div class="total__sum_wrapper">
+                        <h1 class="total">Your Total : <span class="total__out">$</span> </h1>
+                        <div class="clear__btn">
+                            clear cart
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <footer class="footer__">
+        <div class="container">
+            foot
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
